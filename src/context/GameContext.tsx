@@ -84,6 +84,7 @@ interface GameContextValue {
   cancelRule: () => void
   makeConnection: (targetRect: DOMRect, result: MatchResult) => void
   clearConnection: () => void
+  setPreference: (p: PlayStyle) => void
   startGame: (pref?: PlayStyle) => void
   openNews: () => void
   closeNews: () => void
